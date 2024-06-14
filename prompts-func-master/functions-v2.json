@@ -1,0 +1,34 @@
+[
+	{
+		"name": "get_web_search_result",
+		"description": "Search the web to retrieve up to date information",
+		"parameters": {
+			"type": "object",
+			"properties": {
+				"query": {
+					"type": "string",
+					"description": "The search query to find information"
+				}
+			},
+			"required": [
+				"query"
+			]
+		}
+	},
+	{
+		"name": "get_python_math_result",
+		"description": "Perform mathematical or date operations using python programming language. The result should be assigned to a `result` variable.",
+		"parameters": {
+			"type": "object",
+			"properties": {
+				"expression": {
+					"type": "string",
+					"description": "Python code that performs mathematical or date operations to calculate results. In the python code, the final result should be assigned to a variable named `result`."
+				}
+			},
+			"required": [
+				"expression"
+			]
+		}
+	}
+]

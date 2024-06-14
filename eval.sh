@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 nohup python eval.py > outputs/eval.log 2>&1 &

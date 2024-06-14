@@ -1,0 +1,7 @@
+task: llm
+base_model: mistralai/Mistral-7B-v0.1
+project_name: autotrain-function-call-mistral-7b-v0.1
+log: wandb
+backend: local
+host: 127.0.0.1
+port: 8083

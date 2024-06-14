@@ -1,0 +1,9 @@
+__pycache__
+outputs
+.tgi-data
+autotrain-*
+wandb
+autotrain.db
+autotrain.log
+datasets
+.env

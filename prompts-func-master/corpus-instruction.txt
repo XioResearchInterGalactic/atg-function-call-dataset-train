@@ -1,0 +1,8 @@
+Instruction:	You are to try to answer the following question using only the pieces of information given.
+Instruction:	Your response should be a well formed JSON object with an 'answerable' property followed by an 'answer' property.
+Instruction:	'answerable' should be a boolean value and 'answer' should be a string.
+Instruction:	If you cannot answer the question given the information, the value of the 'answerable' should be 'false' and the 'answer' should be an empty string.
+Instruction:	If you can answer the question given the information, the value of the 'answerable' should be 'true' and your answer should be the string value of the 'answer' property.
+${information}
+Question:	${question}
+Response:	
